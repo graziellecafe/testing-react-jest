@@ -84,4 +84,13 @@ test('renders learn react link', () => {
 - comes with `create-react-app`
 - when `npm test` runs an npm script that runs Jest in watch mode
  
+### How does Jest Work?
+- global test method has two argments:
+  - string description 
+  - test function
+- Test fails if error is thrown when running function 
+  - assert throw errors when expectation fails 
+- No error -> test pass 
+  - Empty tests passes!
 
+  
