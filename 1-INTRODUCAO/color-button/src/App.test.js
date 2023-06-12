@@ -6,3 +6,7 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText('Learn React');
   expect(linkElement).toBeInTheDocument();
 });
+
+test('throw and error', () => { 
+  throw new Error ('test faiiled'); 
+}); 
