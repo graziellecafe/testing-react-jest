@@ -93,4 +93,22 @@ test('renders learn react link', () => {
 - No error -> test pass 
   - Empty tests passes!
 
-  
+## TDD: Test Driven Development
+- Write tests before writing code 
+  - then write code acoorgind to "spec" set by tests
+- red-green testing 
+  - tests fails before code is written
+
+  ### Why TDD? 
+  - Makes a huge difference in how in feels to write tests
+    - part of the codding process, not a "chore"to do at the end 
+  - Mode efficient
+    - Re-run tests "for free" after changes 
+
+## Types of tests
+- Unit tests
+  - Tests one unit of code in isolation 
+- Integration tests 
+  - How multiple units work together 
+- Functional Tests
+  - Tests a particular function of software
